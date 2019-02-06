@@ -1,0 +1,11 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>livro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card *ngFor="let livro of listalivro" >
+    <p>{{livro.title}}</p>
+  </ion-card>
+</ion-content>
